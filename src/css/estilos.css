@@ -5,6 +5,7 @@ body {
 html {
     background-image: url(../imagens/bg-repeat.jpg);
     background-repeat: repeat;
+    background-size:contain;
     background-position: center;
 }
 
