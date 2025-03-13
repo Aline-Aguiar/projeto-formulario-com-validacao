@@ -5,7 +5,7 @@ body {
 html {
     background-image: url(../imagens/bg-repeat.jpg);
     background-repeat: repeat;
-    background-size:contain;
+    background-size: contain;
     background-position: center;
 }
 
@@ -42,6 +42,18 @@ main {
     padding: 20px;
 }
 
+.input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.formulario .input.last{
+    margin-bottom: 7px;
+}
+
+/* .formulario .input .requerido {} */
+
 #nome,
 #email,
 #telefone,
@@ -49,11 +61,10 @@ main {
     border: 1px solid #000000;
     border-radius: 5px;
     min-height: 35px;
-    margin-bottom: 15px;
 }
 
 #mensagem {
-    margin-bottom: 7px;
+    height: 100px;
 }
 
 .observacao {
