@@ -1,0 +1,74 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+html {
+    background-image: url(../imagens/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 100vh;
+}
+
+.texto {
+    width: 300px;
+    height: 111px;
+    color: #FFFFFF;
+}
+
+.texto .titulo {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 11px;
+}
+
+.texto .explicacao {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 340px;
+    height: 378px;
+    padding: 20px;
+}
+
+#nome,
+#email,
+#telefone,
+#mensagem {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    min-height: 35px;
+    margin-bottom: 15px;
+}
+
+#mensagem {
+    margin-bottom: 7px;
+}
+
+.observacao {
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.btn-enviar {
+    min-height: 41px;
+    color: #FFFFFF;
+    background-color: #3CCC87;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    border-style: none;
+}
