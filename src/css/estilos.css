@@ -48,17 +48,14 @@ main {
     margin-bottom: 15px;
 }
 
-.formulario .input.last{
+.formulario .input.last {
     margin-bottom: 7px;
 }
-
-/* .formulario .input .requerido {} */
 
 #nome,
 #email,
 #telefone,
 #mensagem {
-    border: 1px solid #000000;
     border-radius: 5px;
     min-height: 35px;
 }
@@ -66,6 +63,11 @@ main {
 #mensagem {
     height: 100px;
 }
+
+/* .formulario .input .span-requerido {
+    display: none;
+    color: #F52E2E;
+} */
 
 .observacao {
     font-size: 15px;
@@ -82,4 +84,25 @@ main {
     font-size: 15px;
     font-weight: 700;
     border-style: none;
+}
+
+.padrao {
+    border: 1px solid #000000;
+}
+
+.campo-vazio {
+    border: 1px solid #F52E2E;
+}
+
+.campo-preenchido {
+    border: 1px solid #00C22B;
+}
+
+.sem-erro {
+    display: none;
+}
+
+.erro {
+    display: block;
+    color: #F52E2E;
 }
