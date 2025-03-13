@@ -3,9 +3,8 @@ body {
 }
 
 html {
-    background-image: url(../imagens/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(../imagens/bg-repeat.jpg);
+    background-repeat: repeat;
     background-position: center;
 }
 
