@@ -42,13 +42,13 @@ main {
     padding: 20px;
 }
 
-.input {
+.campo-completo {
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
 }
 
-.formulario .input.last {
+.formulario .campo-completo.last {
     margin-bottom: 7px;
 }
 
@@ -63,11 +63,6 @@ main {
 #mensagem {
     height: 100px;
 }
-
-/* .formulario .input .span-requerido {
-    display: none;
-    color: #F52E2E;
-} */
 
 .observacao {
     font-size: 15px;

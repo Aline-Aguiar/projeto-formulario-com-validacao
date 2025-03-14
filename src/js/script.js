@@ -1,5 +1,8 @@
 const formulario = document.getElementById("formulario");
-const campos = document.querySelectorAll(".requerido");
-const spans = document.querySelectorAll(".span-requerido");
+const inputsRequeridos = document.querySelectorAll(".requerido"); /* array */
+const spans = document.querySelectorAll(".span-requerido"); /* array */
 
-const emailRegex = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
+let spanAtual = 0;
+
+
+
