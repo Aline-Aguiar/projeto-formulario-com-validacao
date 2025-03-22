@@ -81,6 +81,10 @@ main {
     border-style: none;
 }
 
+.btn-enviar:hover{
+    opacity: 0.8;
+}
+
 .padrao {
     border: 1px solid #000000;
 }
