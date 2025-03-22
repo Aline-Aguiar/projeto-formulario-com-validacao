@@ -38,7 +38,7 @@ main {
     flex-direction: column;
     background-color: #FFFFFF;
     width: 340px;
-    height: 378px;
+    min-height: 378px;
     padding: 20px;
 }
 
