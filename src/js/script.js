@@ -1,15 +1,15 @@
-const formulario = document.getElementById("formulario");
 const inputsRequeridos = document.querySelectorAll(".requerido"); /* array */
 const spans = document.querySelectorAll(".span-requerido"); /* array */
 const btnEnviar = document.getElementById("btn-enviar")
 
-inputsRequeridos.forEach(function (input, indice) {
-    input.addEventListener('input', () => {
+btnEnviar.addEventListener("click", (e) => {
+    e.preventDefault()
 
-        if (input.value === "") {
-            setarErro(indice)
-        } else {
+    inputsRequeridos.forEach(function (input, indice) {
+        if (input.value.trim() !== "") {
             removerErro(indice)
+        } else {
+            setarErro(indice)
         }
     })
 })
