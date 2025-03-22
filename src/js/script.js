@@ -1,5 +1,5 @@
-const inputsRequeridos = document.querySelectorAll(".requerido"); /* array */
-const spans = document.querySelectorAll(".span-requerido"); /* array */
+const inputsRequeridos = document.querySelectorAll(".requerido");
+const spans = document.querySelectorAll(".span-requerido");
 const btnEnviar = document.getElementById("btn-enviar")
 
 btnEnviar.addEventListener("click", (e) => {
