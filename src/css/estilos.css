@@ -62,6 +62,7 @@ main {
 
 #mensagem {
     height: 100px;
+    resize: none;
 }
 
 .observacao {
