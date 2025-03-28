@@ -107,3 +107,18 @@
         border-style: none;
     }
 }
+
+@media(max-width:430px){
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .texto {
+        width: 204px;
+        height: 67px;
+        color: #FFFFFF;
+    }
+}
