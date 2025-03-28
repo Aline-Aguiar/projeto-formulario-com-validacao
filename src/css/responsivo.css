@@ -1,0 +1,109 @@
+@media(max-width:690px) {
+    .formulario {
+        width: 272px;
+        min-height: 302px;
+        padding: 16px;
+    }
+
+    #nome,
+    #email,
+    #telefone,
+    #mensagem {
+        border-radius: 4px;
+        min-height: 28px;
+    }
+
+    #mensagem {
+        height: 80px;
+        resize: none;
+    }
+
+    .observacao {
+        font-size: 12px;
+        font-weight: 400;
+        color: #000000;
+        margin-bottom: 20px;
+    }
+
+    .texto {
+        width: 240px;
+        height: 89px;
+        color: #FFFFFF;
+    }
+    
+    .texto .titulo {
+        font-size: 1.6rem;
+        font-weight: 900;
+        margin-bottom: 9px;
+    }
+    
+    .texto .explicacao {
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    .btn-enviar {
+        min-height: 33px;
+        color: #FFFFFF;
+        background-color: #3CCC87;
+        border-radius: 4px;
+        font-size: 12px;
+        font-weight: 700;
+        border-style: none; 
+    }
+}
+
+@media(max-width:550px){
+    .formulario {
+        width: 204px;
+        min-height: 227px;
+        padding: 12px;
+    }
+
+    #nome,
+    #email,
+    #telefone,
+    #mensagem {
+        border-radius: 3px;
+        min-height: 21px;
+    }
+
+    #mensagem {
+        height: 60px;
+        resize: none;
+    }
+
+    .observacao {
+        font-size: 9px;
+        font-weight: 400;
+        color: #000000;
+        margin-bottom: 20px;
+    }
+
+    .texto {
+        width: 180px;
+        height: 67px;
+        color: #FFFFFF;
+    }
+    
+    .texto .titulo {
+        font-size: 1.2rem;
+        font-weight: 900;
+        margin-bottom: 7px;
+    }
+    
+    .texto .explicacao {
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+
+    .btn-enviar {
+        min-height: 25px;
+        color: #FFFFFF;
+        background-color: #3CCC87;
+        border-radius: 3px;
+        font-size: 9px;
+        font-weight: 700;
+        border-style: none;
+    }
+}
